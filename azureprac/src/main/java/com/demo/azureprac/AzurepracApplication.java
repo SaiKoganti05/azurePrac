@@ -15,7 +15,7 @@ public class AzurepracApplication {
 	
 	@GetMapping("/hello")
 	public String printMessage() {
-		return "Congrats for your deployment in azure";
+		return "Check Passed";
 	}
 
 }
